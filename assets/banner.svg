@@ -1,0 +1,50 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1f3a"/>
+      <stop offset="50%" stop-color="#242647"/>
+      <stop offset="100%" stop-color="#171826"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5865F2" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#5865F2" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7289DA" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#7289DA" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
+
+  <ellipse cx="180" cy="80" rx="260" ry="200" fill="url(#glow1)"/>
+  <ellipse cx="1020" cy="300" rx="280" ry="200" fill="url(#glow2)"/>
+
+  <g opacity="0.12" stroke="#8fa1ff" fill="none">
+    <circle cx="120" cy="60" r="40"/>
+    <circle cx="1090" cy="70" r="55"/>
+    <circle cx="1050" cy="300" r="70"/>
+    <circle cx="90" cy="300" r="45"/>
+  </g>
+
+  <g opacity="0.10" stroke="#c9d1ff" fill="none" stroke-width="1.5">
+    <line x1="0" y1="60" x2="200" y2="60"/>
+    <line x1="1000" y1="300" x2="1200" y2="300"/>
+    <line x1="1000" y1="30" x2="1200" y2="30"/>
+  </g>
+
+  <g opacity="0.10" fill="#5865F2">
+    <circle cx="150" cy="220" r="6"/>
+    <circle cx="1080" cy="150" r="6"/>
+    <circle cx="60" cy="140" r="4"/>
+    <circle cx="1140" cy="230" r="4"/>
+  </g>
+
+  <text x="600" y="170" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="58.0" font-weight="700" fill="#ffffff">
+    <tspan x="600" dy="0">Discord Account Generator</tspan>
+  </text>
+
+  <text x="600" y="225" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22.0" fill="#c9d1d9">
+    <tspan x="600" dy="0">Tired of manually creating Discord accounts one by one?</tspan>
+  </text>
+</svg>
